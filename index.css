@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 20px;
+}
+
+.btn {
+    background: white;
+    color: #0073e6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    background: #005bb5;
+    color: white;
+}
+
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10Px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+
+#services ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+#services li {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+#services li:hover {
+    transform: translateY(-5Px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+#contact p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-box {
+    background: #f9f9f9;
+    border: 2px solid #0073e6;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40Px;
+}
